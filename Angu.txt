@@ -1,0 +1,22 @@
+CustomerArray:any[]=[];
+From Gayathri R to Everyone 05:37 AM
+api/v1/customer
+From Shamsheera T to Everyone 05:40 AM
+import { HttpClient } from '@angular/common/http';
+this.http.get("http://localhost:8084/api/v1/customer/getAllCustomer")
+\\From Shamsheera T to Everyone 03:40 AM
+npm I bootstrap
+From Shamsheera T to Everyone 03:59 AM
+@import "~bootstrap/dist/css/bootstrap.css";
+From Shamsheera T to Everyone 04:12 AM
+import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
+From Shamsheera T to Everyone 04:36 AM
+<input type="text"[(ngModel)]="customername"[ngModelOptions]="{standalone:true}"class="form-control"id="name" placeholder="Enter Name">
+From Shamsheera T to Everyone 05:34 AM
+CustomerArray:any[]=[];
+From Gayathri R to Everyone 05:37 AM
+api/v1/customer
+From Shamsheera T to Everyone 05:40 AM
+import { HttpClient } from '@angular/common/http';
+this.http.get("http://localhost:8084/api/v1/customer/getAllCustomer")

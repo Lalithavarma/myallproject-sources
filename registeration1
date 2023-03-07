@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body bgcolor="red">
+
+<fieldset>
+<legend>Registration Form</legend>
+
+<table>
+<form action="Success.html" method="post">
+<tr>
+<td>
+<label for="fnm">First Name:</label>
+</td>
+<td>
+<input type="text" id="fnm" placeholder="FirstName:"required>
+</td>
+</tr>
+<tr>
+<td>
+<label for="lnm">Last Name:</label>
+</td>
+<td>
+<input type="text" id="lnm" placeholder="LastName:"required>
+</td>
+</tr>
+<tr>
+<td>
+<label for="gen">Gender:</label>
+</td>
+<td>
+<input type="radio" id="gen" name="r1"/>Male
+<input type="radio" id="gen" name="r1"/>FeMale
+
+</td>
+</tr>
+<tr>
+<td>
+<label for="edu">Education:</label>
+</td>
+
+<td>
+<input type="checkbox" id="edu1"name="high"/>intermediate
+<input type="checkbox" id="edu2"name="grad"/>Graduate
+<input type="checkbox" id="edu3"name="pgrad"/>Post Graduate
+</td>
+</tr>
+<tr>
+<td>
+<label for="add">Address:</label>
+</td>
+<td>
+<textarea rows="10" cols="30" id="add"></textarea>
+</td>
+</tr>
+<td>
+<input type="Submit" value="SUBMIT">
+</td>
+
+</form>
+</table>
+</fieldset>
+
+
+</body>
+</html>
